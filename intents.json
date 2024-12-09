@@ -83,24 +83,7 @@
             "I was just born in the digital world.",
             "Age is just a number for me."
         ]
-    },
-    {
-        "tag": "math",
-        "patterns": [
-            "What is X plus Y?",
-            "What is X minus Y?",
-            "What is X times Y?",
-            "What is X divided by Y?",
-            "Calculate X plus Y",
-            "Calculate X minus Y",
-            "Calculate X times Y",
-            "Calculate X divided by Y"
-        ],
-        "responses": [
-            "I can help with that! Please provide the numbers."
-            
-        ]
-    },    
+    },  
     {
         "tag": "weather",
         "patterns": [
@@ -3363,5 +3346,22 @@
             "Timeless relics are ancient artifacts and objects that hold historical and cultural significance, preserving the stories of our ancestors.",
             "Archaeologists and historians continue to unearth relics that shed light on human history and civilization."
         ]
-    }
+    },
+     {
+        "tag": "math",
+        "patterns": [
+            "What is X plus Y?",
+            "What is X minus Y?",
+            "What is X times Y?",
+            "What is X divided by Y?",
+            "Calculate X plus Y",
+            "Calculate X minus Y",
+            "Calculate X times Y",
+            "Calculate X divided by Y"
+        ],
+        "responses": [
+            "I can help with that! Please provide the numbers."
+            
+        ]
+    },  
 ]
