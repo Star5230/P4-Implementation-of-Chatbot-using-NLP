@@ -5,22 +5,16 @@
             "Hi",
             "Hello",
             "Hey",
-            "hola"
-            
+            "hola",
+            "How are you",
+            "What's up",
+        "What about you"
         ],
         "responses": [
             "Hi there",
             "Hello bestie",
             "Hey friend!",
-           "hi buddy "
-        ]
-    },
-    {
-        "tag":"wishing",
-        "patterns":["How are you",
-            "What's up",
-        "What about you"],
-        "responses":[
+           "hi buddy ",
             "I am fine ! How are you friend!",
             "I am good! Hoping youre feeling same",
             "Nothing is going on!"
