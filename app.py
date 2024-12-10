@@ -92,7 +92,7 @@ def main():
             user_input_str = str(user_input)
 
             response = chatbot(user_input)
-            st.text_area("Chatbot:", value=response, height=120, max_chars=None, key=f"chatbot_response_{counter}")
+            st.text_area("BotBuddy:", value=response, height=120, max_chars=None, key=f"chatbot_response_{counter}")
 
             # Record the current timestamp
             timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
