@@ -69,21 +69,21 @@ counter = 0
 
 def main():
     global counter
-    st.title("Intents of Chatbot using NLP")
+    st.title("BotBuddy: Chatbot using NLP")
 
     # Sidebar menu options
-    menu = ["Home", "Conversation History", "About"]
+    menu = ["Talk With BotBuddy", "Conversation History", "About"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     # Home Menu
     if choice == "Home":
-        st.write("Welcome to the chatbot. Please type a message to get started.")
+        st.write("Welcome to the BotBuddy. Please type a message and enter to get started.")
 
         # Initialize chat log if it doesn't exist
         if not os.path.exists('chat_log.csv'):
             with open('chat_log.csv', 'w', newline='', encoding='utf-8') as csvfile:
                 csv_writer = csv.writer(csvfile)
-                csv_writer.writerow(['User Input', 'Chatbot Response', 'Timestamp'])
+                csv_writer.writerow(['User Input', 'BotBuddy Response', 'Timestamp'])
 
         counter += 1
         user_input = st.text_input("You:", key=f"user_input_{counter}")
@@ -114,7 +114,7 @@ def main():
             next(csv_reader)  # Skip the header row
             for row in csv_reader:
                 st.text(f"User: {row[0]}")
-                st.text(f"Chatbot: {row[1]}")
+                st.text(f"BotBuddy: {row[1]}")
                 st.text(f"Timestamp: {row[2]}")
                 st.markdown("---")
 
