@@ -76,7 +76,7 @@ def main():
     choice = st.sidebar.selectbox("Menu", menu)
 
     # Home Menu
-    if choice == "Home":
+    if choice == "Talk With BotBuddy":
         st.write("Welcome to the BotBuddy. Please type a message and enter to get started.")
 
         # Initialize chat log if it doesn't exist
